@@ -130,6 +130,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AudioSource_PlayHelper();
 		Register_UnityEngine_AudioSource_PlayHelper();
 
+		//UnityEngine.AudioClip UnityEngine.AudioSource::get_clip()
+		void Register_UnityEngine_AudioSource_get_clip();
+		Register_UnityEngine_AudioSource_get_clip();
+
 	//End Registrations for type : UnityEngine.AudioSource
 
 	//Start Registrations for type : UnityEngine.Behaviour
@@ -818,6 +822,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GameObject_Internal_AddComponentWithType();
 		Register_UnityEngine_GameObject_Internal_AddComponentWithType();
 
+		//UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
+		void Register_UnityEngine_GameObject_Find();
+		Register_UnityEngine_GameObject_Find();
+
 		//UnityEngine.GameObject UnityEngine.GameObject::FindGameObjectWithTag(System.String)
 		void Register_UnityEngine_GameObject_FindGameObjectWithTag();
 		Register_UnityEngine_GameObject_FindGameObjectWithTag();
@@ -1254,6 +1262,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Input_GetButtonDown();
 		Register_UnityEngine_Input_GetButtonDown();
 
+		//System.Boolean UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)
+		void Register_UnityEngine_Input_GetKeyDownInt();
+		Register_UnityEngine_Input_GetKeyDownInt();
+
 		//System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
 		void Register_UnityEngine_Input_GetMouseButton();
 		Register_UnityEngine_Input_GetMouseButton();
@@ -1653,6 +1665,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object,System.Boolean)
 		void Register_UnityEngine_Object_DestroyImmediate();
 		Register_UnityEngine_Object_DestroyImmediate();
+
+		//System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
+		void Register_UnityEngine_Object_DontDestroyOnLoad();
+		Register_UnityEngine_Object_DontDestroyOnLoad();
 
 		//System.Void UnityEngine.Object::SetName(UnityEngine.Object,System.String)
 		void Register_UnityEngine_Object_SetName();
@@ -2385,6 +2401,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.SpriteRenderer::set_sprite(UnityEngine.Sprite)
 		void Register_UnityEngine_SpriteRenderer_set_sprite();
 		Register_UnityEngine_SpriteRenderer_set_sprite();
+
+		//UnityEngine.Sprite UnityEngine.SpriteRenderer::get_sprite()
+		void Register_UnityEngine_SpriteRenderer_get_sprite();
+		Register_UnityEngine_SpriteRenderer_get_sprite();
 
 	//End Registrations for type : UnityEngine.SpriteRenderer
 

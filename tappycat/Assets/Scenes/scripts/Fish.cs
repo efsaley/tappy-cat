@@ -17,7 +17,8 @@ public class Fish : MonoBehaviour
     SpriteRenderer sp;
     Animator anim;
     public obstaclespawner obstaclespawner;
-    [SerializeField] private AudioSource swim,hit,point;
+    [SerializeField] private AudioSource swim,hit,point,catdeath;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,10 @@ public class Fish : MonoBehaviour
      // _rb.gravityScale = 0;
         sp = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
-
+        Debug.Log("Swim audio clip: " + swim.clip);
+        Debug.Log("Hit audio clip: " + hit.clip);
+        Debug.Log("Point audio clip: " + point.clip);
+        Debug.Log("CatDeath audio clip: " + catdeath.clip);
         
     }
 
@@ -108,6 +112,7 @@ public class Fish : MonoBehaviour
 
     void FishDieEffect()
     {
+        catdeath.Play();
         hit.Play();
     }
 

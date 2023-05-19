@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BackgroundMusicController
     - Fish
     - GameManager
     - LeftMovement
@@ -31,8 +32,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -99,33 +102,35 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1584}
+      Script: {instanceID: 1592}
     - Class: 114
-      Script: {instanceID: 1798}
+      Script: {instanceID: 1806}
     - Class: 114
-      Script: {instanceID: 2166}
+      Script: {instanceID: 2174}
     - Class: 114
-      Script: {instanceID: 2738}
+      Script: {instanceID: 2746}
     - Class: 114
-      Script: {instanceID: 2972}
+      Script: {instanceID: 2980}
     - Class: 114
-      Script: {instanceID: 3302}
+      Script: {instanceID: 3310}
     - Class: 114
-      Script: {instanceID: 4100}
+      Script: {instanceID: 4108}
     - Class: 114
-      Script: {instanceID: 5078}
+      Script: {instanceID: 4566}
     - Class: 114
-      Script: {instanceID: 5932}
+      Script: {instanceID: 5088}
     - Class: 114
-      Script: {instanceID: 6076}
+      Script: {instanceID: 5942}
     - Class: 114
-      Script: {instanceID: 6288}
+      Script: {instanceID: 6086}
     - Class: 114
-      Script: {instanceID: 6496}
+      Script: {instanceID: 6298}
     - Class: 114
-      Script: {instanceID: 6864}
+      Script: {instanceID: 6506}
     - Class: 114
-      Script: {instanceID: 7578}
+      Script: {instanceID: 6874}
+    - Class: 114
+      Script: {instanceID: 7588}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -507,7 +512,7 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: 7ceb226db2eee0f340ec52ba866f331e
+      Hash: 6f81d227106d5d78237c2241c9b136bc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Fish
@@ -583,6 +588,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BackgroundMusicController
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -1105,6 +1116,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 96c92fca1f62fb2e442f3ab260bedfa6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ParallaxBackground_0
+  - hash:
+      serializedVersion: 2
+      Hash: 15c876bf4aa8ed5e57cd82adf965045c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BackgroundControl_0
   platform: 9
   scenePathNames:
   - Assets/Scenes/game.unity

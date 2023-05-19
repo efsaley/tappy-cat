@@ -1,5 +1,6 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="BackgroundMusicController" preserve="nothing"/>
 		<type fullname="Fish" preserve="nothing"/>
 		<type fullname="GameManager" preserve="nothing"/>
 		<type fullname="LeftMovement" preserve="nothing"/>
