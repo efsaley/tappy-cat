@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 64628981}
   - component: {fileID: 64628980}
   m_Layer: 0
-  m_Name: Fish_1
+  m_Name: Cat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -307,7 +307,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e48dcf2a94b1842fd803d2ea5ee7d527, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.64
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -403,7 +403,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b3063688bd313452f9ee1341d37d9939, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.65
+  m_Volume: 0.35
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -499,7 +499,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a6059ca0049ad41e8a3a64fe8cc3e2f6, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.76
+  m_Volume: 0.56
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -691,7 +691,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b2700d0c5e59e461bbf2ede365acf740, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.8
+  m_Volume: 0.61
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1534,9 +1534,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 471082427
-  m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingLayerID: 775658199
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1208535370, guid: 6fb9307127f1044fd91bef4728d02e83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1689,7 +1689,7 @@ GameObject:
   - component: {fileID: 926572277}
   - component: {fileID: 926572278}
   m_Layer: 0
-  m_Name: FishStopUp
+  m_Name: CatStopUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2471,9 +2471,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 471082427
-  m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingLayerID: 775658199
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1208535370, guid: 6fb9307127f1044fd91bef4728d02e83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

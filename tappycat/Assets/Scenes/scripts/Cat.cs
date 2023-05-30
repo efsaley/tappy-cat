@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Fish : MonoBehaviour
+public class Cat : MonoBehaviour
 {
     Rigidbody2D _rb;
     [SerializeField]
@@ -35,6 +35,7 @@ public class Fish : MonoBehaviour
     }
 
     // Update is called once per frame
+    //
     void Update()
     { 
         FishSwim();
