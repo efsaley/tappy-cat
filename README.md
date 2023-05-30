@@ -22,12 +22,11 @@ a flappy bird clone, made with unity.
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/efsaley/tappy-cat/main/Screenshots/IMG_0957.PNG?token=GHSAT0AAAAAACCPR5MVIJEPO4D4PYKXK4DGZDWIDGA)
-
-![App Screenshot](https://raw.githubusercontent.com/efsaley/tappy-cat/main/Screenshots/IMG_0958.PNG?token=GHSAT0AAAAAACCPR5MVAG2K6GVEHQJ65XBGZDWIEKA)
-
-![App Screenshot](https://raw.githubusercontent.com/efsaley/tappy-cat/main/Screenshots/IMG_0959.PNG?token=GHSAT0AAAAAACCPR5MUQVCSYDEPLZU3MERCZDWIEUA)
-
+  <p>
+  <img alt="tappy" src="https://github.com/efsaley/tappy-cat/blob/main/Screenshots/IMG_0957.PNG" width="30%">
+   <img alt="tappy" src="https://github.com/efsaley/tappy-cat/blob/main/Screenshots/IMG_0958.PNG" width="30%">
+ <img alt="tappy" src="https://github.com/efsaley/tappy-cat/blob/main/Screenshots/IMG_0959.PNG" width="30%">
+  </p>
 
 
 
